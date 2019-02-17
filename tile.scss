@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$tilewidth:200px;
+$subtitleColor:#9c9797;
+
+#title-container{
+    width: 90%;
+    margin: 60px auto 0;
+    position: relative;
+    
+    .title{
+        padding-bottom: 10px;
+        border-radius: 3px;
+        overflow: hidden;
+        width: $tilewidth;
+        background-color: #fff;
+        box-shadow: 0 0 6px rgba(0,0,0,0.4);
+        position:  absolute;//重要
+        figue{
+            margin-bottom: 10px;
+            img{
+                width: 100%;
+            }
+        }  
+        .content{
+            h2{
+                font-size: 20px;
+                color:$subtitleColor;
+                font-family: serif;
+                margin-bottom: 0.3em;
+                padding: 0 10px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: normal;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,39 @@
+/* line 1, /Users/hatsunematsui/Desktop/tail/tile.scss */
+* {
+  padding: 0;
+  margin: 0; }
+
+/* line 9, /Users/hatsunematsui/Desktop/tail/tile.scss */
+#title-container {
+  width: 90%;
+  margin: 60px auto 0;
+  position: relative; }
+  /* line 14, /Users/hatsunematsui/Desktop/tail/tile.scss */
+  #title-container .title {
+    padding-bottom: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    position: absolute; }
+    /* line 22, /Users/hatsunematsui/Desktop/tail/tile.scss */
+    #title-container .title figue {
+      margin-bottom: 10px; }
+      /* line 24, /Users/hatsunematsui/Desktop/tail/tile.scss */
+      #title-container .title figue img {
+        width: 100%; }
+    /* line 29, /Users/hatsunematsui/Desktop/tail/tile.scss */
+    #title-container .title .content h2 {
+      font-size: 20px;
+      color: #9c9797;
+      font-family: serif;
+      margin-bottom: 0.3em;
+      padding: 0 10px; }
+    /* line 36, /Users/hatsunematsui/Desktop/tail/tile.scss */
+    #title-container .title .content p {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 0 10px; }
+
+/*# sourceMappingURL=tile.css.map */
